@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Open+Sans:wght@300;400&family=Orbitron:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-top{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header-top li{
+    list-style: none;
+    display: flex;
+    margin-left: 25px;
+}
+.header-top i{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.header-top p{
+    margin: 5px;
+}
+.logo h1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+.logo p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+}
